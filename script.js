@@ -1,4 +1,4 @@
-var options = ["Rubys", "Sawers"];
+var options = ["Chinese", "Chippy","Pizza"];
 
 var startAngle = 0;
 var arc = Math.PI / (options.length / 2);
