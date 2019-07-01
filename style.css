@@ -1,0 +1,28 @@
+.audio
+{
+  display:none;
+}
+.command
+{
+  display:inline;
+}
+
+[contenteditable="true"]
+{
+    color:red;
+}
+
+[contenteditable="true"]#cmdline {
+        white-space: nowrap;
+        width:90%;
+        /*overflow: hidden;*/
+} 
+[contenteditable="true"]#cmdline br {
+    display:none;
+    width:200px;
+}
+[contenteditable="true"]#cmdline * {
+    display:inline;
+    white-space:nowrap;
+    width:200px;
+}
