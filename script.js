@@ -3,6 +3,8 @@ $( document ).ready(function() {
   
 });
 
+
+
 function getCurrentTime() {
   var date = new Date();
   var hours = (date.getHours() < 10 ? "0" : "") + date.getHours();
@@ -75,6 +77,7 @@ function CommandEntered(command) {
       }
       break;
       case "quail":
+      $(".audio").loop = true;
       $(".audio")[0].play();
       LogWithTimestamp("Just Right");
       break;
