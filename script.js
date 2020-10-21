@@ -67,7 +67,7 @@ function CommandEntered(command) {
       break;
     case "wilson":
      $(".audio")[0].play();
-     LogWithTimestamp("Just Right");
+     LogWithTimestamp("");
      break;
     case "meh":
       var win = window.open("https://youtu.be/yZt6eP7cmHM", "_blank");
