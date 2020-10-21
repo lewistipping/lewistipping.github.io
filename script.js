@@ -66,11 +66,9 @@ function CommandEntered(command) {
       LogWithTimestamp("This site was created by Lewis Tipping");
       break;
     case "wilson":
-      break;
-      case "wilson":
-          $(".audio")[1].play();
-      LogWithTimestamp("Just Right");
-          break;
+     $(".audio")[1].play();
+     LogWithTimestamp("Just Right");
+     break;
     case "meh":
       var win = window.open("https://youtu.be/yZt6eP7cmHM", "_blank");
       if (win) {
