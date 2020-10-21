@@ -67,7 +67,7 @@ function CommandEntered(command) {
       break;
     case "wilson":
       break;
-          case: "wilson"
+      case "wilson":
           $(".audio")[1].play();
       LogWithTimestamp("Just Right");
           break;
