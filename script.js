@@ -65,7 +65,7 @@ function CommandEntered(command) {
     case "about":
       LogWithTimestamp("This site was created by Lewis Tipping");
       break;
-    case "":
+    case "wilson":
       break;
           case: "wilson"
           $(".audio")[1].play();
