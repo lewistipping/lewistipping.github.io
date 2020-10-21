@@ -56,6 +56,7 @@ function CommandEntered(command) {
     case "help":
       LogWithTimestamp("help - Display Commands");
       LogWithTimestamp("clear - Clear messages from previous commands");
+      LogWithTimestamp("soundbites - Display a collection of soundbites");
       break;
     case "clear":
       $(".previous-messages").empty();
@@ -66,6 +67,10 @@ function CommandEntered(command) {
       break;
     case "":
       break;
+          case: "wilson"
+          $(".audio")[1].play();
+      LogWithTimestamp("Just Right");
+          break;
     case "meh":
       var win = window.open("https://youtu.be/yZt6eP7cmHM", "_blank");
       if (win) {
